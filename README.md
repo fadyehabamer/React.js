@@ -13,4 +13,4 @@
 |----|---------|
 | 01 | React Intro and JSX      |
 | 02 |   React Component      |  
-|    |         |  
+| 03  |   Props      |  
