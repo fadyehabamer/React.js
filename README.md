@@ -15,6 +15,7 @@
 | 02 |   React Component      |  
 | 03 |   Props      |  
 | 04 | States |
-| 05 | create react app|
-| 06 | import_export_export default|
+| 05 | props vs states|
+| 06 | create react app|
+| 07 | import_export_export default|
 | 08 | nested Component _ Arrow Functions|
