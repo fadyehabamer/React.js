@@ -16,3 +16,4 @@
 | 03 |   Props      |  
 | 04 | States |
 | 05 | create react app|
+| 06 | import_export_export default|
