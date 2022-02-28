@@ -12,5 +12,5 @@
 | #  | Content |
 |----|---------|
 | 01 | React Intro and JSX      |
-|    |         |  
+| 02 |   React Component      |  
 |    |         |  
