@@ -22,3 +22,4 @@
 | 09 | Events|
 | 10 | SetState|
 | 11 | statefull vs stateless component|
+| 12 | React List Data Using Map |
