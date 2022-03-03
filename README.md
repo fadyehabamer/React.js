@@ -21,3 +21,4 @@
 | 08 | nested Component _ Arrow Functions|
 | 09 | Events|
 | 10 | SetState|
+| 11 | statefull vs stateless component|
