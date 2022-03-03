@@ -25,3 +25,4 @@
 | 12 | React List Data Using Map |
 | 13 | React Forms|
 | 14 | output if condition (Conditional Rendering) |
+| 15 | component Life Cycle|
