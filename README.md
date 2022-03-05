@@ -21,3 +21,11 @@
 | 08 | nested Component _ Arrow Functions|
 | 09 | Events|
 | 10 | SetState|
+| 11 | statefull vs stateless component|
+| 12 | React List Data Using Map |
+| 13 | React Forms|
+| 14 | output if condition (Conditional Rendering) |
+| 15 | component Life Cycle|
+| 16 | React Router|
+| 17 | Axios|
+| 18 | Routes Not Found|
