@@ -11,9 +11,9 @@
 
 | #  | Content |
 |----|---------|
-| 01 | React Intro and JSX |
+| 01 | React Intro and JSX|
 | 02 |   React Component|  
-| 03 |   Props      |  
+| 03 |   Props|  
 | 04 | States |
 | 05 | props vs states|
 | 06 | create react app|
