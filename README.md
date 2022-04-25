@@ -33,3 +33,5 @@
 | 20 | dealing with images|
 | 21 | Todo App|
 | 22 | Github Calendar Component|
+| 23 | React Tailwind CSS|
+| 24 | Courses App|
