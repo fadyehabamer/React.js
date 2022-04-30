@@ -36,3 +36,4 @@
 | 23 | React Tailwind CSS|
 | 24 | Courses App|
 | 25 | Key Fragment |
+| 26 | CLC part 2|
