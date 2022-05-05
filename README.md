@@ -9,7 +9,6 @@
 
 ## Table of content
 
-
 | #  | Content |
 |----|---------|
 | 01 | React Intro and JSX|
