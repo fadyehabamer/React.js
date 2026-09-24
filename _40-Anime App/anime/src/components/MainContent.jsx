@@ -31,7 +31,7 @@ function MainContent({ handleSearch, search, setSearch, animeList }) {
                             // <div className="anime-card" key={anime.mal_id}>
                             //     {anime.title}
                             // </div>
-                            <AnimeCard anime={anime} />
+                            <AnimeCard anime={anime} key={anime.mal_id} />
                         ))}
                     </div>
                 </>
