@@ -140,8 +140,8 @@ function App() {
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4 lg:gap-6 mt-6 ">
               {Array(8)
                 .fill(" ")
-                .map((el) => (
-                  <div className="card-sm">
+                .map((el, index) => (
+                  <div className="card-sm" key={index}>
                     <div className="flex items-center justify-between">
                       <h4 className=" font-bold">Pages Views</h4>
                       <AiFillFacebook className=" text-facebook" size={22} />

@@ -7,11 +7,11 @@ import "../App.css"
 export default function NavBar() {
     return (
         <nav>
-            <Link exact to="/"> HOME </Link>
+            <Link to="/"> HOME </Link>
             <ul>
-                <Link exact to="/about"> About </Link>
-                <Link exact to="/services"> Services  </Link>
-                <Link exact to="/users">Users</Link>
+                <Link to="/about"> About </Link>
+                <Link to="/services"> Services  </Link>
+                <Link to="/users">Users</Link>
             </ul>
         </nav>
     )

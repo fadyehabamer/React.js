@@ -9,7 +9,7 @@ function Nav() {
     return (
 
         <div className="topnav">
-            <NavLink exact to='/' >Home</NavLink>
+            <NavLink end to='/' >Home</NavLink>
             <NavLink to="/cart"> Cart ({items.length}) </NavLink>
         </div>
 

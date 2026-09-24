@@ -8,16 +8,17 @@ export default function NavBar() {
         <nav>
             <Link to='/'> LOGO </Link>
             <ul>
-                <NavLink exact to="/about">  About </NavLink>
-                <NavLink exact to="/services">Services</NavLink>
+                <NavLink to="/about">  About </NavLink>
+                <NavLink to="/services">Services</NavLink>
                 {/* 
                     - Link , NavLink is doing the same function 
 
                     - But NavLink add Class "active"  to the Current Component
-                    but also add "exact" after Navlink to prevent multiple active class for multiple component 
-                    
-                    - to Change class "active" with any desired className
-                        --> activeClassName="BLABLA HERE"
+                    React Router v6 removed "exact": add "end" to a NavLink (e.g. to="/")
+                    so it is only active on that exact path and not on its children
+
+                    - to Change class "active" with any desired className (v6 removed activeClassName)
+                        --> className={({ isActive }) => (isActive ? "BLABLA HERE" : "")}
                 */}
             </ul>
         </nav>

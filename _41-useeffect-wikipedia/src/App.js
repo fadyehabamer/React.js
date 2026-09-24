@@ -40,19 +40,15 @@ export default function App() {
 
 
 
-  if (!result.length) {
-    
-  }else{
-    const displayResult = result.map((item, idx) => {
-      return (
-        <tr key={item.pageid}>
-          <th scope='row' > {idx + 1} </th>
-          <td>{item.title}</td>
-          <td> <span dangerouslySetInnerHTML={{ "__html": item.snippet }} />  </td>
-        </tr>
-      )
-    })
-  }
+  const displayResult = result.map((item, idx) => {
+    return (
+      <tr key={item.pageid}>
+        <th scope='row' > {idx + 1} </th>
+        <td>{item.title}</td>
+        <td> <span dangerouslySetInnerHTML={{ "__html": item.snippet }} />  </td>
+      </tr>
+    )
+  })
   
   return (
     <div className='container'>
@@ -84,7 +80,7 @@ export default function App() {
               </tr>
             </thead>
             <tbody>
-              {displayResult ? displayResult  : <tr> NO Data Yet </tr> }
+              {displayResult.length ? displayResult : <tr><td colSpan='3'> NO Data Yet </td></tr> }
             </tbody>
           </table>
         </div>
