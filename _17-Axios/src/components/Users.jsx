@@ -34,7 +34,7 @@ export default class Users extends Component {
                     </tr>
                     {this.state.users.map(user => {
                         return (
-                            <tr>
+                            <tr key={user.id}>
                                 <td>{user.id}</td>
                                 <td>{user.name}</td>
                                 <td>{user.phone}</td>
