@@ -7,7 +7,7 @@ export default class Items extends Component {
         const renderItems = items.map(item => {
 
             return (
-                <li> {item.id} - {item.name}  - {item.price}  </li>
+                <li key={item.id}> {item.id} - {item.name}  - {item.price}  </li>
             )
 
         })
