@@ -9,12 +9,14 @@ export default class App extends Component {
     name: 'fadyehabamer',
   }
 
+  nameInput = React.createRef()
+
 
   handleSubmit = (e) => {
     e.preventDefault()
 
     this.setState({
-      name: this.refs.name.value,
+      name: this.nameInput.current.value,
     })
   }
 
@@ -33,7 +35,7 @@ export default class App extends Component {
         </h3>
 
         <form onSubmit={this.handleSubmit} className="inputs">
-          <input autocomplete="off" id="name" type="text" ref="name" placeholder='Enter Github UserName' />
+          <input autoComplete="off" id="name" type="text" ref={this.nameInput} aria-label="GitHub username" placeholder='Enter Github UserName' />
           <input type="submit" value="Search" />
         </form>
 
