@@ -7,13 +7,14 @@ export default class Items extends Component {
         const renderItems = items.map(item => {
             if (item.price >= 500) {
                 return (
-                    <div>
-                        <ul key={item.id}>
+                    <div key={item.id}>
+                        <ul>
                             <li> {item.id} - {item.name}  - {item.price}  </li>
                         </ul>
                     </div>
                 )
             }
+            return null
             // * ShortHand if
             // * item.price >= 500 ? <li> {item.id} - {item.name}  - {item.price}  </li> : <h1> NO PRODUCTS </h1>
         })
